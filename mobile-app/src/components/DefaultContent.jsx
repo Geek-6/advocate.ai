@@ -32,10 +32,6 @@ function DefaultContent() {
           <div className='heading'>
             <h1>ADVO: Your Personal Legal Assistant.</h1>
           </div>
-          <div className="reset-button-container">
-            {/* Reset button triggers the resetZapierComponent function */}
-            <button onClick={resetZapierComponent}>Reset</button>
-          </div>
           <div className="zapier-embed-container" ref={zapierRef}>
             {/* Initial rendering of Zapier component */}
             <zapier-interfaces-page-embed
